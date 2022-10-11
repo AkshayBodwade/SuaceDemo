@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-09T07:49:03 IST" name="SanitySuite" finished-at="2022-10-09T07:49:33 IST" duration-ms="29036">
+    <groups>
+    </groups>
+    <test started-at="2022-10-09T07:49:03 IST" name="FirefoxTest" finished-at="2022-10-09T07:49:33 IST" duration-ms="29036">
+      <class name="reduceddatabyusingannotation.TC02_VerifyLogoutFunctionality">
+        <test-method is-config="true" signature="BeforeClassMethod(java.lang.String)[pri:0, instance:reduceddatabyusingannotation.TC02_VerifyLogoutFunctionality@703580bf]" started-at="2022-10-09T07:49:16 IST" name="BeforeClassMethod" finished-at="2022-10-09T07:49:21 IST" duration-ms="5021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClassMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:reduceddatabyusingannotation.TC02_VerifyLogoutFunctionality@703580bf]" started-at="2022-10-09T07:49:21 IST" name="setUp" finished-at="2022-10-09T07:49:22 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutFunctionality()[pri:0, instance:reduceddatabyusingannotation.TC02_VerifyLogoutFunctionality@703580bf]" started-at="2022-10-09T07:49:22 IST" name="verifyLogoutFunctionality" finished-at="2022-10-09T07:49:22 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:reduceddatabyusingannotation.TC02_VerifyLogoutFunctionality@703580bf]" started-at="2022-10-09T07:49:22 IST" name="tearDown" finished-at="2022-10-09T07:49:22 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="AfterClassMethod()[pri:0, instance:reduceddatabyusingannotation.TC02_VerifyLogoutFunctionality@703580bf]" started-at="2022-10-09T07:49:22 IST" name="AfterClassMethod" finished-at="2022-10-09T07:49:24 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClassMethod -->
+      </class> <!-- reduceddatabyusingannotation.TC02_VerifyLogoutFunctionality -->
+      <class name="reduceddatabyusingannotation.TC03_VerifyAddToCartFunctionality">
+        <test-method is-config="true" signature="BeforeClassMethod(java.lang.String)[pri:0, instance:reduceddatabyusingannotation.TC03_VerifyAddToCartFunctionality@3e92efc3]" started-at="2022-10-09T07:49:24 IST" name="BeforeClassMethod" finished-at="2022-10-09T07:49:28 IST" duration-ms="4934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClassMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:reduceddatabyusingannotation.TC03_VerifyAddToCartFunctionality@3e92efc3]" started-at="2022-10-09T07:49:28 IST" name="setUp" finished-at="2022-10-09T07:49:29 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddToCartFunctionality()[pri:0, instance:reduceddatabyusingannotation.TC03_VerifyAddToCartFunctionality@3e92efc3]" started-at="2022-10-09T07:49:29 IST" name="verifyAddToCartFunctionality" finished-at="2022-10-09T07:49:31 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:reduceddatabyusingannotation.TC03_VerifyAddToCartFunctionality@3e92efc3]" started-at="2022-10-09T07:49:31 IST" name="tearDown" finished-at="2022-10-09T07:49:31 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="AfterClassMethod()[pri:0, instance:reduceddatabyusingannotation.TC03_VerifyAddToCartFunctionality@3e92efc3]" started-at="2022-10-09T07:49:31 IST" name="AfterClassMethod" finished-at="2022-10-09T07:49:33 IST" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClassMethod -->
+      </class> <!-- reduceddatabyusingannotation.TC03_VerifyAddToCartFunctionality -->
+      <class name="reduceddatabyusingannotation.TC01_VerifyLoginFunctionality">
+        <test-method is-config="true" signature="BeforeClassMethod(java.lang.String)[pri:0, instance:reduceddatabyusingannotation.TC01_VerifyLoginFunctionality@4a22f9e2]" started-at="2022-10-09T07:49:04 IST" name="BeforeClassMethod" finished-at="2022-10-09T07:49:13 IST" duration-ms="9151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClassMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:reduceddatabyusingannotation.TC01_VerifyLoginFunctionality@4a22f9e2]" started-at="2022-10-09T07:49:13 IST" name="setUp" finished-at="2022-10-09T07:49:14 IST" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunctionality()[pri:0, instance:reduceddatabyusingannotation.TC01_VerifyLoginFunctionality@4a22f9e2]" started-at="2022-10-09T07:49:14 IST" name="verifyLoginFunctionality" finished-at="2022-10-09T07:49:14 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:reduceddatabyusingannotation.TC01_VerifyLoginFunctionality@4a22f9e2]" started-at="2022-10-09T07:49:14 IST" name="tearDown" finished-at="2022-10-09T07:49:14 IST" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="AfterClassMethod()[pri:0, instance:reduceddatabyusingannotation.TC01_VerifyLoginFunctionality@4a22f9e2]" started-at="2022-10-09T07:49:14 IST" name="AfterClassMethod" finished-at="2022-10-09T07:49:16 IST" duration-ms="1655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClassMethod -->
+      </class> <!-- reduceddatabyusingannotation.TC01_VerifyLoginFunctionality -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- SanitySuite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test parallel="classes" thread-count="2" name="HighPriorityTest">
+    <classes>
+      <class name="reduceddatabyusingannotation.TC01_VerifyLoginFunctionality"/>
+      <class name="reduceddatabyusingannotation.TC02_VerifyLogoutFunctionality"/>
+    </classes>
+ </test> <!-- Test -->
+  <test thread-count="2" name="LowPriorityTest">
+    <classes>
+      <class name="reduceddatabyusingannotation.TC03_VerifyAddToCartFunctionality"/>
+      <!--class name="reduceddatabyusingannotation.TC04_VerifyAllTestCases"/-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
